@@ -1,0 +1,35 @@
+{
+  "name": "primus-msgpack",
+  "version": "0.0.0",
+  "description": "Repack of msgpack-lite to make it easier to use it in a Primus parser",
+  "homepage": "https://github.com/primus/primus-msgpack",
+  "bugs": "https://github.com/primus/primus-msgpack/issues",
+  "repository": "primus/primus-msgpack",
+  "author": "Luigi Pinca",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "binary",
+    "primus",
+    "msgpack"
+  ],
+  "scripts": {
+    "test-travis": "istanbul cover -x test.js _mocha --report lcovonly",
+    "coverage": "istanbul cover -x test.js _mocha",
+    "build": "webpack",
+    "test": "mocha"
+  },
+  "files": [
+    "bundle.js",
+    "index.js"
+  ],
+  "dependencies": {
+    "msgpack-lite": "0.1.20"
+  },
+  "devDependencies": {
+    "istanbul": "0.4.x",
+    "mocha": "2.5.x",
+    "pre-commit": "1.1.x",
+    "webpack": "1.13.x"
+  }
+}
