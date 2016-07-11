@@ -48,7 +48,7 @@ exports["msgpack"] =
 	'use strict';
 
 	exports.encode = __webpack_require__(1).encode;
-	exports.decode = __webpack_require__(1).decode;
+	exports.decode = __webpack_require__(11).decode;
 
 
 /***/ },
