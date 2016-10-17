@@ -24,7 +24,7 @@
     "index.js"
   ],
   "dependencies": {
-    "msgpack-lite": "0.1.20"
+    "msgpack-lite": "0.1.26"
   },
   "devDependencies": {
     "istanbul": "0.4.x",
