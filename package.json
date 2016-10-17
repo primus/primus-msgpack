@@ -1,6 +1,6 @@
 {
   "name": "primus-msgpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Repack of msgpack-lite to make it easier to use it in a Primus parser",
   "homepage": "https://github.com/primus/primus-msgpack",
   "bugs": "https://github.com/primus/primus-msgpack/issues",
