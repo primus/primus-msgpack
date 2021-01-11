@@ -16,7 +16,7 @@ npm install --save primus-msgpack
 [MIT](LICENSE)
 
 [npm-primus-msgpack-badge]: https://img.shields.io/npm/v/primus-msgpack.svg?style=flat-square
-[npm-primus-msgpack]: http://browsenpm.org/package/primus-msgpack
+[npm-primus-msgpack]: https://www.npmjs.com/package/primus-msgpack
 [ci-primus-msgpack-badge]: https://img.shields.io/github/workflow/status/primus/primus-msgpack/CI/master?label=CI&style=flat-square
 [ci-primus-msgpack]: https://github.com/primus/primus-msgpack/actions?query=workflow%3ACI+branch%3Amaster
 [david-primus-msgpack-badge]: https://img.shields.io/david/primus/primus-msgpack.svg?style=flat-square
