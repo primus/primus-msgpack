@@ -14,10 +14,8 @@
     "msgpack"
   ],
   "scripts": {
-    "test-travis": "istanbul cover -x test.js _mocha --report lcovonly",
-    "coverage": "istanbul cover -x test.js _mocha",
     "build": "webpack",
-    "test": "mocha"
+    "test": "c8 --reporter=html --reporter=text mocha"
   },
   "files": [
     "bundle.js",
@@ -27,7 +25,8 @@
     "msgpack-lite": "0.1.26"
   },
   "devDependencies": {
-    "istanbul": "~0.4.5",
+    "c8": "~7.4.0",
+    "coveralls": "~3.1.0",
     "mocha": "~8.2.1",
     "pre-commit": "~1.2.0",
     "webpack": "~5.12.3",
